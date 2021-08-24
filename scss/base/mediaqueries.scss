@@ -1,6 +1,6 @@
 @media screen and (min-width:296px) {
     .logo{
-        width: 70%;
+        width: 80%;
     }
     .main-header__contactInfo{
         text-align: right;
@@ -179,10 +179,6 @@
         width: 220px;
         height: 220px;
     }
-    .galeria-container{
-        grid-template-columns: repeat(4, 1fr);
-        margin-bottom: 20px;
-    }
     .tienda-container{
         grid-template-columns: repeat(2, 1fr);
     }
@@ -191,18 +187,6 @@
     }
     .tienda__precio{
         font-size: 1.6em;
-    }
-    .galeria__item:nth-child(3){
-        grid-column-start: span 2;
-    }
-    .galeria__item:nth-child(4){
-        grid-column-start: span 3;
-    }
-    .galeria__item:nth-child(5){
-        grid-row-start: span 3;
-    }
-    .galeria__item:nth-child(7){
-        grid-column-start: span 2;
     }
 }
 @media screen and (min-width:1024px){
@@ -263,35 +247,6 @@
     }
     .tienda__precio{
         font-size: 1.7em;
-    }
-    .galeria-container{
-        grid-template-columns: repeat(5, 1fr);
-        width: 90%;
-        margin: auto;
-        margin-bottom: 20px;
-    }
-    .galeria__item:nth-child(1){
-        grid-column-start: span 2;
-        grid-row-start: span 2;
-    }
-    .galeria__item:nth-child(4){
-        grid-column-start: span 3;
-        grid-row-start: span 3;
-    }
-    .galeria__item:nth-child(5){
-        grid-column-start: span 2;
-        grid-row-start: span 2;
-    }
-    .galeria__item:nth-child(6){
-        grid-row-start: span 2;
-    }
-    .galeria__item:nth-child(7){
-        grid-column-start: span 2;
-        grid-row-start: span 2;
-    }
-    .galeria__item:nth-child(8){
-        grid-column-start: span 2;
-        grid-row-start: span 2;
     }
     .main-footer {
         padding-top: 30px;

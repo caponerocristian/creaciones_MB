@@ -14,6 +14,12 @@
     <title>Galería | Creaciones MB</title>
 </head>
 <body>
+   <div class="modal" id="modal">
+      <div class="modal__content">
+        <img src="" alt="" class="modal__img" id="modal__img">
+      </div>
+      <div class="modal__boton" id="modal__boton">X</div>
+  </div>
     <header class="main-header">
         <section class="container container--flex">
             <div class="logo-container column column--50">
@@ -51,34 +57,26 @@
         <img src="../img/banner-galeria.jpg" alt="Banner" class="banner__img">
         <div class="banner__contenido tituloEspaciado">Creaciones MB</div>
     </section>
-    <main class="main-galeria">
+    <main class="main">
        <h1 class="tituloEspaciado">Mi Galería</h1>
-        <section>
-            <div class="galeria-container">
-               <div class="galeria__item">
-                  <img src="/img/Galeria/galeria1.jpeg" alt="" class="galeria__img"> 
-               </div>
-               <div class="galeria__item">
-                  <img src="/img/Galeria/galeria2.jpeg" alt="" class="galeria__img"> 
-               </div>
-               <div class="galeria__item">
-                  <img src="/img/Galeria/galeria3.jpeg" alt="" class="galeria__img"> 
-               </div>
-               <div class="galeria__item">
-                  <img src="/img/Galeria/galeria4.jpeg" alt="" class="galeria__img"> 
-               </div>
-               <div class="galeria__item">
-                  <img src="/img/Galeria/galeria5.jpeg" alt="" class="galeria__img"> 
-               </div>
-               <div class="galeria__item">
-                  <img src="/img/Galeria/galeria6.jpg" alt="" class="galeria__img"> 
-               </div>
-               <div class="galeria__item">
-                  <img src="/img/Galeria/galeria7.jpeg" alt="" class="galeria__img"> 
-               </div>
-               <div class="galeria__item">
-                  <img src="/img/Galeria/galeria8.jpeg" alt="" class="galeria__img"> 
-               </div>
+        <section class="group galeria">
+            <div class="container container--flex">
+               <div class="column column--50-25">
+                  <img src="/img/Galeria/galeria1.jpeg" alt="" class="galeria__img galeria__img--big">
+                  <img src="/img/Galeria/galeria2.jpeg" alt="" class="galeria__img galeria__img--small">
+                </div>
+                <div class="column column--50-25">
+                  <img src="/img/Galeria/galeria3.jpeg" alt="" class="galeria__img galeria__img--small">
+                  <img src="/img/Galeria/galeria4.jpeg" alt="" class="galeria__img galeria__img--big">
+                </div>
+                <div class="column column--50-25">
+                  <img src="/img/Galeria/galeria5.jpeg" alt="" class="galeria__img galeria__img--big">
+                  <img src="/img/Galeria/galeria6.jpeg" alt=""  class="galeria__img galeria__img--small">
+                </div>
+                <div class="column column--50-25">
+                  <img src="/img/Galeria/galeria7.jpeg" alt="" class="galeria__img galeria__img--small">
+                  <img src="/img/Galeria/galeria8.jpeg" alt="" class="galeria__img galeria__img--big">
+                </div>
             </div>
         </section>
     </main>
@@ -87,7 +85,7 @@
            <div class="column column--33">
                    <p class="titulo-footer-1"><b>¿Por que visitarnos?</b></p>
                    <p class="column__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam earum eveniet maxime in, fugiat pariatur ducimus</p>
-               </div>
+            </div>
             <div class="column column--33">
                 <p class="titulo-footer-2"><b>Contactanos</b></p>
                 <p class="column__txt">Las Lilas 123 - Mar del Plata, Argentina</p>
@@ -104,6 +102,6 @@
         <p class="copy">2021 Creaciones MB | Todos los derechos reservados</p>
     </footer>
     <script src="../js/menu.js"></script>
+    <script src="../js/modal.js"></script>
 </body>
-
 </html>
