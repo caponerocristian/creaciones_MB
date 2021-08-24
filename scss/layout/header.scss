@@ -1,0 +1,28 @@
+.main-header {
+    width: 100%;
+    
+    .main-header__contactInfo {
+        margin: 0 auto;
+        padding: 5px;
+    }
+    .main-header__contactInfo__phone {
+        margin: 0 auto;
+        padding: 10px;
+    }
+    .main-header__contactInfo__address {
+        padding: 10px;
+        margin: 0;
+    }
+}
+
+.main-header [class*="icon-"]:before {
+    position: relative;
+    top: 2px;
+    right: 5px;
+}
+.logo{
+    width: 25vw;
+    height: 20vh;
+    padding: 10px;
+    margin-bottom: 5px;
+}

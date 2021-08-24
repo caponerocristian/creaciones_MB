@@ -1,0 +1,34 @@
+.tienda-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    margin-bottom: 20px;
+    grid-gap: 20px;
+}
+.tienda__img{
+    width: auto;
+    height: auto;
+    object-fit: cover;
+}
+.tienda__txt {
+    text-align: center;
+    font-size: 1.2em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.tienda__precio{
+    text-align: center;
+    font-size: 1.3em;
+    color: black;
+    font-weight: bold;
+}
+.btn-tienda {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    width: 120px;
+    background: rgb(180, 211, 222);
+    color: white;
+    padding: 10px;
+    margin: 10px auto;
+}

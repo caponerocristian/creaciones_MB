@@ -1,0 +1,52 @@
+.error-body{
+    min-height: 100vh;
+    background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+}
+.error-container {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #343434;
+    
+    h1{
+        font-family: "montserrat",sans-serif;
+        font-size: 160px;
+        margin: 0;
+        font-weight: 900;
+        letter-spacing: 20px;
+        background: url(../../img/error1.jpg)center  no-repeat;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+    
+    a{
+        text-decoration: none;
+        background: #e55039aa;
+        color: #fff;
+        padding: 12px 12px;
+        display: inline-block;
+        border-radius: 25px;
+        font-size: 14px;
+        text-transform: uppercase;
+        transition: 0.4s;
+    }
+    
+    a:hover {
+        background: #e55039;
+    }
+}
+.animated {
+    animation-duration: 2.5s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+}
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+    40% {transform: translateY(-30px);}
+    60% {transform: translateY(-15px);}
+}
+.bounce {
+    animation-name: bounce;
+}

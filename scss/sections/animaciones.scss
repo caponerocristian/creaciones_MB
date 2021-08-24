@@ -1,0 +1,62 @@
+textarea{
+    transition: all 2s;
+}
+textarea:focus{
+    font-size: 30px;
+    border: 5px solid #ff0000;
+    color: deeppink;
+}
+.btn:hover{
+    transform: skew(20deg);
+}
+.banner__contenido{
+    animation-duration: 5s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+}
+@keyframes aparecer{
+    0% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.balanceo:hover{
+    -webkit-animation: 2s balanceo 1;
+}
+@-webkit-keyframes balanceo{
+    20%{
+        -webkit-transform: scale(0.9) rotate(-3deg);
+    }
+    30%, 50%, 70%, 90%{
+        -webkit-transform: scale(1.1) rotate(3deg);
+    }
+    40%, 60%, 80%{
+        -webkit-transform: scale(1.1) rotate(-3deg);
+    }
+}
+.vibrar:hover
+{
+	animation: 1s vibrar infinite;
+}
+@keyframes vibrar
+{
+	5%, 25%, 45%, 65%, 85% { transform: translateX(-10px); }
+	15%, 35%, 55%, 75%, 95% { transform: translateX(10px); }
+}
+.sombra_movil{
+    -webkit-transform: translateX(0);
+    -webkit-transition-duration: 0.3s;
+}
+.onda:hover{
+    -webkit-animation: 2s onda 1;
+}
+@-webkit-keyframes onda{
+    20%, 40%, 60%{
+        border-radius: 0% 0% 80% 0%;
+    }
+    30%, 50%, 70%{
+        border-radius: 0% 0% 0% 80%;
+    }
+}

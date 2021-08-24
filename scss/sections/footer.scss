@@ -1,0 +1,21 @@
+.main-footer{
+    background: rgb(249, 190, 190);
+    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: linear-gradient(rgb(249, 190, 190),rgb(180, 211, 222));
+}
+.copy {
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+}
+.main-footer [class*="icon-"] {
+    color: white;
+    text-decoration: none;
+}
+.main-footer [class*="icon-"]:before{
+    position: relative;
+    top: 5px;
+    right: .5px;
+}

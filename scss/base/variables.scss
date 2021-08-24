@@ -1,0 +1,36 @@
+$red: #FF0800;
+$blue: #0017FF;
+$orange: #FF5500;
+$violet: #E820FF;
+$fontsize: 20px;
+$blanco: white;
+
+$redes: (
+    facebook: $blue,
+    instagram: $orange,
+    youtube: $red
+);
+
+@each $red, $color in $redes {
+    .icon-#{$red}{
+        background-color: $color;
+        padding: 4px;
+        margin: 3px;
+        border-radius: 50%;
+    }
+}
+
+@for $i from 1 through 3 {
+    .titulo-footer-#{$i}{
+        font-size: $fontsize;
+        color: $violet;
+    }
+}
+@mixin sizes($font-f, $font-s, $li-he){
+    font-family: $font-f;
+    font-size: $font-s;
+    line-height: $li-he;
+}
+.parrafo-footer{
+    @include sizes("Chilanka", 1em, 30px);
+}

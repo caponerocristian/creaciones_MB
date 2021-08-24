@@ -1,0 +1,320 @@
+@media screen and (min-width:296px) {
+    .logo{
+        width: 70%;
+    }
+    .main-header__contactInfo{
+        text-align: right;
+    }
+    .main-header__contactInfo__phone{
+        background: none;
+    }
+    .main-header__contactInfo__phone{
+        color: white;
+    }
+    .main-header__contactInfo__address {
+        color: white;
+    }
+    .main-nav{
+        background: rgba(0,0,0,0.85);
+    }
+    .banner{
+        margin-top: -260px;
+        z-index: -1000;
+    }
+    .banner__img{
+        height: 600px;
+    }
+    .banner__contenido{
+        font-size: 3em;
+        margin-top: 50px;
+    }
+    .main{
+        padding-bottom: 15px;
+    }
+    .main__descripcion .column:nth-child(2){
+        padding-left: 20px;
+        font-size: .9em;
+    }
+    .main__descripcion .btn{
+        margin: 0;
+    }
+    .diseno-especial .column{
+        border: 5px solid #ddd;
+        padding: 5px;
+    }
+    .diseno-especial__img{
+        height: 250px;
+        object-fit: cover;
+    }
+    .tienda-container{
+        grid-template-columns: repeat(2, 1fr);
+        padding: 1px;
+    }
+    .tienda__item{
+        border: 5px solid rgb(249, 190, 190);
+        padding: 5px;
+    }
+    .tienda__img{
+        width: auto;
+        height: auto;
+        object-fit: cover;
+    }
+    .tienda__txt{
+        font-size: 1em;
+    }
+    .tienda__precio{
+        font-size: 1.2em;
+    }
+    .btn-tienda {
+        width: 100px;
+        font-size: 12px;
+        padding: 5px;
+    }
+    .main-footer .container--flex {
+        align-items: flex-start;
+    }
+    .column--50 {
+        width: 49%;
+    }
+    .column--50-25 {
+        width: 49%;
+    }
+    .column--33 {
+        width: 32%;
+    }
+}
+@media screen and (min-width:480px) {
+    .logo{
+        width: 50%;
+    }
+    .main-header__contactInfo{
+        text-align: right;
+    }
+    .main-header__contactInfo__phone{
+        background: none;
+    }
+    .main-header__contactInfo__phone{
+        color: white;
+    }
+    .main-header__contactInfo__address {
+        color: white;
+    }
+    .main-nav{
+        background: rgba(0,0,0,0.85);
+    }
+    .banner{
+        margin-top: -200px;
+        z-index: -1000;
+    }
+    .banner__img{
+        height: 600px;
+    }
+    .banner__contenido{
+        font-size: 3em;
+    }
+    .main{
+        padding-bottom: 15px;
+    }
+    .main__descripcion .column:nth-child(2){
+        padding-left: 20px;
+        font-size: .9em;
+    }
+    .main__descripcion .btn{
+        margin: 0;
+    }
+    .diseno-especial .column{
+        border: 5px solid #ddd;
+        padding: 5px;
+    }
+    .diseno-especial__img{
+        height: 250px;
+        object-fit: cover;
+    }
+    .tienda-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .tienda__item{
+        border: 5px solid rgb(249, 190, 190);
+        padding: 5px;
+    }
+    .main-footer .container--flex {
+        align-items: flex-start;
+    }
+    .column--50 {
+        width: 49%;
+    }
+    .column--50-25 {
+        width: 49%;
+    }
+    .column--33 {
+        width: 32%;
+    }
+}
+@media screen and (min-width:768px){
+    .logo {
+        width: 30%;
+    }
+    .main__titulo{
+        font-size: 2.2em;
+    }
+    .main__descripcion{
+        margin-top: 30px;
+    }
+    .main__descripcion .column--50:nth-child(2){
+        font-size: 1em;
+    }
+    .main__descripcion .column--50:nth-child(2) .column__txt{
+        line-height: 30px;
+    }
+    .column--50-25 {
+        width: 24.5%;
+    }
+    .column__titulo {
+        font-size: 1em;
+    }
+    .grupo-titulo {
+        font-size: 2.2em;
+    }
+    .nosotros-equipo__img{
+        width: 220px;
+        height: 220px;
+    }
+    .galeria-container{
+        grid-template-columns: repeat(4, 1fr);
+        margin-bottom: 20px;
+    }
+    .tienda-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .tienda__txt {
+        font-size: 1.5em;
+    }
+    .tienda__precio{
+        font-size: 1.6em;
+    }
+    .galeria__item:nth-child(3){
+        grid-column-start: span 2;
+    }
+    .galeria__item:nth-child(4){
+        grid-column-start: span 3;
+    }
+    .galeria__item:nth-child(5){
+        grid-row-start: span 3;
+    }
+    .galeria__item:nth-child(7){
+        grid-column-start: span 2;
+    }
+}
+@media screen and (min-width:1024px){
+    .container{
+        width: 1000px;
+    }
+    .logo{
+        width: 29%
+    }
+    .main-header__contactInfo__phone, .main-header__contactInfo__address{
+        padding-right: 0;
+        font-size: 1.15em;
+    }
+    .main-nav{
+        padding: 0;
+    }
+    .banner__img{
+        height: 700px;
+    }
+    .banner__contentido{
+        font-size: 2.8em;
+    }
+    .icon-menu{
+        display: none;
+    }
+    .menu{
+        position: static;
+        display: flex;
+        height: auto;
+        width: auto;
+    }
+    .menu__link{
+        padding: 20px;
+    }
+    .grupo__color .cotainer{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 20px;
+    }
+    .main__depcripcion .column--50:nth-child(2) .column__txt{
+        line-height: 50px;
+    }
+    .diseno-especial__titulo{
+        font-size: 1.4em;
+    }
+    .nosotros-equipo__img{
+        width: 300px;
+        height: 300px;
+    }
+    .nosotros-equipo__titulo{
+        font-size: 2em;
+    }
+    .tienda-container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .tienda__txt {
+        font-size: 1.6em;
+    }
+    .tienda__precio{
+        font-size: 1.7em;
+    }
+    .galeria-container{
+        grid-template-columns: repeat(5, 1fr);
+        width: 90%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .galeria__item:nth-child(1){
+        grid-column-start: span 2;
+        grid-row-start: span 2;
+    }
+    .galeria__item:nth-child(4){
+        grid-column-start: span 3;
+        grid-row-start: span 3;
+    }
+    .galeria__item:nth-child(5){
+        grid-column-start: span 2;
+        grid-row-start: span 2;
+    }
+    .galeria__item:nth-child(6){
+        grid-row-start: span 2;
+    }
+    .galeria__item:nth-child(7){
+        grid-column-start: span 2;
+        grid-row-start: span 2;
+    }
+    .galeria__item:nth-child(8){
+        grid-column-start: span 2;
+        grid-row-start: span 2;
+    }
+    .main-footer {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+@media screen and (min-width:1600){
+    .container{
+        width: 1400%;
+    }
+    .banner__img{
+        height: 800px;
+    }
+    .main__depcripcion .column--50:nth-child(1) img{
+        width: 100%;
+        height: 350px;
+        object-fit: cover;
+    }
+    .diseno-especial__img{
+        height: 300px;
+    }
+    .nosotros-equipo__img{
+        width: 420px;
+        height: 420px;
+    }
+}
