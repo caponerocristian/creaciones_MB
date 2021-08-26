@@ -124,22 +124,25 @@ img{
     margin: 5%;
 }
 .border{
-    width: 80%;
     border-radius: 10%;
 }
-.diseno-especial .column{
-    margin-bottom: 30px;
+.diseno-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 15px;
+    margin-bottom: 15px;
+    grid-gap: 15px;
+}
+.diseno__img{
+    width: auto;
+    height: auto;
+    object-fit: cover;
+}
+.diseno__txt {
     text-align: center;
-    
-    .diseno-especial__img {
-        margin: auto;
-       max-width: 200px;
-    }
-    .diseno-especial__titulo{
-        font-size: 1.3em;
-        padding-top: 10px;
-        padding-bottom: 20px;
-    }
+    font-size: 1.2em;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .container-fluid {
