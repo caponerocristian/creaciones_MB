@@ -711,6 +711,7 @@ textarea:focus {
 @media screen and (min-width: 296px) {
   .logo {
     width: 80%;
+    height: 10%;
   }
 
   .main-header__contactInfo {
