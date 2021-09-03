@@ -25,9 +25,9 @@
     .banner__img{
         height: 600px;
     }
-    .banner__contenido{
-        font-size: 3em;
-        margin-top: 50px;
+    .banner .banner__contenido{
+        font-size: 1.5em; 
+        margin-top: 55px;
     }
     .main{
         padding-bottom: 15px;
@@ -82,6 +82,19 @@
     .main-footer .container--flex {
         align-items: flex-start;
     }
+    .parrafo-footer{
+        font-size: 0.8em;
+        line-height: 35px;
+    }
+    .titulo-footer-1 .titulo-footer-2 .titulo-footer-3 {
+        font-size: 5px;
+    }
+    .appWhatsapp {
+        right: 0;
+    }
+    .appWhatsapp img {
+        width: 40px;
+    }
     .column--50 {
         width: 49%;
     }
@@ -95,6 +108,24 @@
         min-width: 140px;
         object-fit: cover;
     }
+    .contenido-todo{
+        width: 90px;
+        perspective: 10000px;
+        margin-bottom: 100px;
+    }
+    .contenido-carrusel figure{
+        height: 60px;
+    }
+    .contenido-carrusel figure:nth-child(1){transform: rotateY(0deg) translateZ(140px);}
+    .contenido-carrusel figure:nth-child(2){transform: rotateY(40deg) translateZ(140px);}
+    .contenido-carrusel figure:nth-child(3){transform: rotateY(80deg) translateZ(140px);}
+    .contenido-carrusel figure:nth-child(4){transform: rotateY(120deg) translateZ(140px);}
+    .contenido-carrusel figure:nth-child(5){transform: rotateY(160deg) translateZ(140px);}
+    .contenido-carrusel figure:nth-child(6){transform: rotateY(200deg) translateZ(140px);}
+    .contenido-carrusel figure:nth-child(7){transform: rotateY(240deg) translateZ(140px);}
+    .contenido-carrusel figure:nth-child(8){transform: rotateY(280deg) translateZ(140px);}
+    .contenido-carrusel figure:nth-child(9){transform: rotateY(320deg) translateZ(140px);}
+    .contenido-carrusel figure:nth-child(10){transform: rotateY(360deg) translateZ(140px);}
 }
 @media screen and (min-width:480px) {
     .logo{
@@ -122,8 +153,8 @@
     .banner__img{
         height: 600px;
     }
-    .banner__contenido{
-        font-size: 3em;
+    .banner .banner__contenido{
+        font-size: 2.3em;
     }
     .main{
         padding-bottom: 15px;
@@ -152,6 +183,12 @@
     .main-footer .container--flex {
         align-items: flex-start;
     }
+    .parrafo-footer{
+        font-size: 1em;
+    }
+    .appWhatsapp {
+        right: 0;
+    }
     .column--50 {
         width: 49%;
     }
@@ -161,6 +198,24 @@
     .column--33 {
         width: 32%;
     }
+    .contenido-todo{
+        width: 150px;
+        perspective: 10000px;
+        margin-bottom: 150px;
+    }
+    .contenido-carrusel figure{
+        height: 100px;
+    }
+    .contenido-carrusel figure:nth-child(1){transform: rotateY(0deg) translateZ(215px);}
+    .contenido-carrusel figure:nth-child(2){transform: rotateY(40deg) translateZ(215px);}
+    .contenido-carrusel figure:nth-child(3){transform: rotateY(80deg) translateZ(215px);}
+    .contenido-carrusel figure:nth-child(4){transform: rotateY(120deg) translateZ(215px);}
+    .contenido-carrusel figure:nth-child(5){transform: rotateY(160deg) translateZ(215px);}
+    .contenido-carrusel figure:nth-child(6){transform: rotateY(200deg) translateZ(215px);}
+    .contenido-carrusel figure:nth-child(7){transform: rotateY(240deg) translateZ(215px);}
+    .contenido-carrusel figure:nth-child(8){transform: rotateY(280deg) translateZ(215px);}
+    .contenido-carrusel figure:nth-child(9){transform: rotateY(320deg) translateZ(215px);}
+    .contenido-carrusel figure:nth-child(10){transform: rotateY(360deg) translateZ(215px);}
 }
 @media screen and (min-width:768px){
     .logo {
@@ -206,6 +261,27 @@
     .tienda__precio{
         font-size: 1.6em;
     }
+    .appWhatsapp img {
+        width: 50px;
+    }
+    .contenido-todo{
+        width: 200px;
+        perspective: 1000px;
+        margin-bottom: 250px;
+    }
+    .contenido-carrusel figure{
+        height: 120px;
+    }
+    .contenido-carrusel figure:nth-child(1){transform: rotateY(0deg) translateZ(300px);}
+    .contenido-carrusel figure:nth-child(2){transform: rotateY(40deg) translateZ(300px);}
+    .contenido-carrusel figure:nth-child(3){transform: rotateY(80deg) translateZ(300px);}
+    .contenido-carrusel figure:nth-child(4){transform: rotateY(120deg) translateZ(300px);}
+    .contenido-carrusel figure:nth-child(5){transform: rotateY(160deg) translateZ(300px);}
+    .contenido-carrusel figure:nth-child(6){transform: rotateY(200deg) translateZ(300px);}
+    .contenido-carrusel figure:nth-child(7){transform: rotateY(240deg) translateZ(300px);}
+    .contenido-carrusel figure:nth-child(8){transform: rotateY(280deg) translateZ(300px);}
+    .contenido-carrusel figure:nth-child(9){transform: rotateY(320deg) translateZ(300px);}
+    .contenido-carrusel figure:nth-child(10){transform: rotateY(360deg) translateZ(300px);}
 }
 @media screen and (min-width:1024px){
     .container{
@@ -224,8 +300,8 @@
     .banner__img{
         height: 700px;
     }
-    .banner__contentido{
-        font-size: 2.8em;
+    .banner .banner__contenido{
+        font-size: 2.9em;
     }
     .icon-menu{
         display: none;
@@ -275,6 +351,9 @@
     .main-footer {
         padding-top: 30px;
         padding-bottom: 30px;
+    }
+    .contenido-todo {
+        margin-bottom: 300px;
     }
 }
 @media screen and (min-width:1600){

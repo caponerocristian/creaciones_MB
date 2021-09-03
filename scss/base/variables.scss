@@ -1,14 +1,13 @@
 $red: #FF0800;
 $blue: #0017FF;
 $orange: #FF5500;
-$violet: #E820FF;
+$celeste: #819FF7;
 $fontsize: 20px;
 $blanco: white;
 
 $redes: (
     facebook: $blue,
-    instagram: $orange,
-    youtube: $red
+    instagram: $orange
 );
 
 @each $red, $color in $redes {
@@ -23,7 +22,8 @@ $redes: (
 @for $i from 1 through 3 {
     .titulo-footer-#{$i}{
         font-size: $fontsize;
-        color: $violet;
+        color: $celeste;
+        font-weight: bold;
     }
 }
 @mixin sizes($font-f, $font-s, $li-he){
@@ -33,4 +33,5 @@ $redes: (
 }
 .parrafo-footer{
     @include sizes("Chilanka", 1em, 30px);
+    color: $blanco;
 }
